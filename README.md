@@ -1,18 +1,18 @@
 # TSP-Green-Logistics
-👥 Group Members:  
+# 👥 Group Members:  
 Maisoon Mohammed Alabdullah  
 Wajd Khalid Alkhaldi  
 Jolie Jamal Salama  
 Nabaa Nabeeh Alaswad  
 Manar Saleh Alghamdi  
   
-📌 Project Overview  
+# 📌 Project Overview  
 This project tackles the Traveling Salesperson Problem (TSP) within the framework of Green Logistics and Sustainable Supply Chain Management. The core challenge is to find the shortest possible route for a delivery vehicle that visits every customer location exactly once and returns to the starting depot — minimizing fuel consumption, operational costs, and carbon emissions.  
 Two algorithmic approaches are implemented and compared:  
 Nearest Neighbor  
 Held-Karp  
 
-📂 Repository Structure  
+# 📂 Repository Structure  
 TSP-Green-Logistics-G1/  
 │  
 ├── TSP_G1_Notebook.ipynb       # Main Jupyter Notebook (full implementation)  
@@ -25,13 +25,13 @@ TSP-Green-Logistics-G1/
 │  
 └── README.md  
   
-🗃️ Dataset  
+# 🗃️ Dataset  
 Source: Kaggle — Traveling Salesman Problem (mexwell)  
 Link: https://www.kaggle.com/datasets/mexwell/traveling-salesman-problem  
   
    
   
-⚙️ Algorithms Implemented  
+# ⚙️ Algorithms Implemented  
 1. Nearest Neighbor (Greedy)  
   
 Starts at a chosen depot city  
@@ -50,7 +50,7 @@ Time Complexity: O(2ⁿ × n²)
 Space Complexity: O(2ⁿ × n)  
 Cases defined by: Number of input cities  
   
-🚀 How to Run  
+# 🚀 How to Run  
 Step 1 — Clone the Repository  
 bashgit clone https://github.com/YourUsername/TSP-Green-Logistics-G1.git    
   
@@ -78,7 +78,7 @@ Once complete, the notebook will display:
 ✅ Bar charts comparing execution time and distance  
   
   
-🔑 Key Findings  
+# 🔑 Key Findings  
   
 Nearest Neighbor is 925x faster than Held-Karp on comparable inputs
 Held-Karp execution time multiplies by 32–70x with every 5 additional cities
@@ -87,10 +87,10 @@ Nearest Neighbor routes are typically 10–25% longer than optimal
 For real-world Green Logistics with hundreds of stops, Nearest Neighbor is the only practical choice
   
   
-📝 Conclusion  
+# 📝 Conclusion  
 This project demonstrates the fundamental trade-off between algorithmic paradigms in the context of real-world logistics. The Nearest Neighbor algorithm is recommended as the primary routing strategy for large-scale sustainable supply chain operations, while Held-Karp serves as the gold standard for validating optimal solutions on small critical subproblems.  
   
-📄 License  
+# 📄 License  
 This project was developed for academic purposes at Imam Abdulrahman Bin Faisal University.
 CSC 301: Algorithm Analysis and Design — Academic Year 2025/2026.  
   
